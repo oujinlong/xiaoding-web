@@ -1,0 +1,137 @@
+/*固定侧边�? start*/
+.fix-sidenav{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -250px;
+    overflow: hidden;
+    z-index:88;
+}
+.zu-btn{
+    float: left;
+    width: 13px;
+    height: 98px;
+    border: 1px solid #004b92;
+    border-radius: 3px 0 0 3px;
+    border-right: none;
+    text-align: center;
+    font-size: 13px;
+    color: #004b92;
+    padding: 10px 9px 0 9px;
+    background: url("http://www.cddgg.com/statics/5img/fix-icon2.png") no-repeat center 89px;
+    display: inline-block;
+    background-color: #fff;
+    *display: inline;
+    *zoom: 1;
+    margin-top: 145px;
+}
+.avtive-btn{
+    color: #fff;
+    background: url("http://www.cddgg.com/statics/5img/fix-icon_03.png") no-repeat center 89px;
+    background-color: #004b92;
+}
+.move-nav{
+    float: left;
+    width: 144px;
+}
+.move-nav>p{
+    width: 128px;
+    background: #004b92;
+    height: 58px;
+    line-height: 58px;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    padding-right: 16px;
+    position: relative;
+    border-bottom: 1px solid #767e9e;
+}
+.move-nav>p>i{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    background: url("http://www.cddgg.com/statics/5img/fix-icon.png") center no-repeat;
+    left: 23px;
+    top: 50%;
+    margin-top: -14px;
+}
+.move-nav>ul{
+    background-color: #0363b1;
+    border-top: 1px solid #0b68b4;
+}
+.move-nav>ul>li{
+    width: 100%;
+    text-align: center;
+}
+.move-nav>ul>li>a{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width:116px;
+    height:33px;
+    line-height: 33px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 17px;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.move-nav>ul>li>a:hover{
+    border-color: #fff;
+    background-color: #fff;
+    color: #006ec7;
+}
+.move-nav>ul>li>p{
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    line-height:23px;
+    padding:6px 0 0 16px;
+}
+.move-nav>ul>li>p>big{
+    font-size: 16px;
+    font-weight: bold;
+}
+.move-nav>ul>li>span{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width:100%;
+    height:1px;
+    background-color: #39669c;
+    border-top: 1px solid #004b92;
+    margin-top: 17px;
+}
+.move-nav>ul>li .two-span{
+    margin-top: 7px;
+}
+.move-nav>ul>li .last-a{
+    background-color: #004b92;
+    width: 101px;
+    height: 29px;
+    text-align: center;
+    margin: 3px auto 15px;
+    border: none;
+    border-radius: 10px;
+}
+.move-nav>ul>li .last-a>i{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width:30px;
+    height:18px;
+    margin-top: 4px;
+    background: url("http://www.cddgg.com/statics/5img/top.png") center no-repeat;
+}
+.move-nav>ul>li .last-a:hover{
+    filter:alpha(opacity=8);       /* IE */
+    -moz-opacity:0.8;              /* 老版Mozilla */
+    -khtml-opacity:0.8;              /* 老版Safari */
+    opacity: 0.8;
+    background: #004b92;
+}
+/*固定侧边�?end*/

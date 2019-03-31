@@ -1,0 +1,1010 @@
+/**
+ *author: yjc
+ *time: 2017.11.30
+ *content: header  footer
+*/
+/*header start*/
+#LRdiv1 {
+    display: none !important;
+}
+body{
+    background-color:#f5f5f5 !important;
+}
+.header{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    min-width: 1190px;
+    background: #fff;
+}
+.login-nav{
+    height: 34px;
+    background-color: #373737;
+}
+.login-nav-cont{
+
+}
+.login-type-group{
+    float: right;
+    font-size: 0;
+}
+.login-nav-cont>.introduce{
+    /*float: left;*/
+    font-size: 12px;
+    color: #dfdfdf;
+    line-height: 34px;
+}
+.login-type-group>.login-group{
+    /*float: left;*/
+    font-size: 0;
+    line-height: 34px;
+}
+.login-type-group>.login-group>span{
+    line-height: 34px;
+    font-size: 12px;
+    color: #999;
+}
+.login-type-group>.login-group>a{
+    line-height: 34px;
+    font-size: 12px;
+    color: #999;
+}
+.login-type-group>a{
+    line-height: 34px;
+    font-size: 12px;
+    color: #999;
+}
+.login-type-group .hover-style:hover{
+    color: #1786ef;
+}
+.login-type-group>.forget-password,
+.login-type-group>.register-btn,
+.login-type-group>.quit-btn{
+    margin-left: 12px;
+}
+.login-type-group>.adviser-btn{
+    margin-left: 20px;
+}
+.header-cont{
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    margin-left: -595px;
+    width: 1190px;
+    height: 110px;
+    font-size: 0;
+}
+.header-cont>.logo{
+    float: left;
+    width: 165px;
+    height: 51px;
+    overflow: hidden;
+    margin-top: 28px;
+}
+.header-cont>.logo>img{
+    width: 100%;
+}
+.header-cont>.search-group{
+    float: left;
+    height: 40px;
+    width: 615px;
+    margin: 24px 0 0 160px;
+}
+.search-condition-group{
+    float: left;
+    border: 2px solid #0962c7;
+    border-right: none;
+}
+.search-condition-group>.type-group{
+    float: left;
+    position: relative;
+    width: 96px;
+}
+.search-condition-group>.type-group:after{
+    position: absolute;
+    content: "";
+    right: -1px;
+    top: 12px;
+    width: 0;
+    height: 12px;
+    border-left: 1px solid #0962c7;
+}
+.search-condition-group>.type-group>span{
+    width: 96px;
+    font-size: 14px;
+    color: #333;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+.search-condition-group>input{
+    float: left;
+    width: 307px;
+    height: 16px;
+    line-height: 16px;
+    padding: 10px 20px 10px 11px;
+    font-size: 14px;
+    color: #333;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.search-condition-group>.search-type{
+    float: left;
+    position: relative;
+    width: 97px;
+    font-size: 0;
+}
+.search-condition-group>.search-type:before{
+    position: absolute;
+    content: "";
+    left: -1px;
+    top: 12px;
+    width: 0;
+    height: 12px;
+    border-left: 1px solid #0962c7;
+}
+.search-condition-group>.search-type>span{
+    font-size: 0;
+    width: 97px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+.search-condition-group>.search-type>span>span{
+    font-size: 14px;
+    color: #333;
+    line-height: 36px;
+}
+.search-condition-group>.search-type>span>i{
+    width: 11px;
+    height: 6px;
+    margin-left: 10px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images/public/arrow-icon.png") no-repeat;
+}
+.search-condition-group>.search-type:hover span>i{
+    background-position: -11px 0;
+}
+.search-group-main>.search-btn{
+    float: left;
+    width: 80px;
+    height: 40px;
+    background: #0962c7;
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+.search-condition-group .type-lists{
+    display: none;
+    position: absolute;
+    top: 36px;
+    left: -2px;
+    width: 609px;
+    background: #fff;
+    border: 2px solid #0962c7;
+    border-top: none;
+}
+.search-condition-group .type-lists>ul{
+    overflow: hidden;
+    padding: 14px 0 12px 20px;
+}
+.search-condition-group .type-lists>ul>li{
+    float: left;
+    width: 12.5%;
+    text-align: left;
+    line-height: 26px;
+    color: #666;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 14px;
+}
+.search-condition-group .type-lists>ul>.light{
+    color: #0962c7;
+}
+.search-condition-group .type-lists>ul>li:hover{
+    color: #0962c7;
+}
+.search-condition-group .type-lists>ul>.not-know{
+    width: 85px;
+    font-size: 0;
+}
+.search-condition-group .type-lists>ul>.not-know>a{
+    font-size: 14px;
+    color: #0962c7;
+    font-weight: bold;
+    line-height: 26px;
+}
+.search-condition-group>.type-group:hover .type-lists{
+    display: block;
+}
+.search-condition-group>.type-group>.type-lists.hidePiece{
+    display: none;
+}
+.search-type-lists{
+    display: none;
+    position: absolute;
+    top: 29px;
+    left: -1px;
+    width: 128px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.search-type-lists>ul{
+    overflow: hidden;
+}
+.search-type-lists>ul>li{
+    width: 118px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    color: #333;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.search-type-lists>ul>li:hover{
+    background-color: #0962c7;
+    color: #fff;
+}
+.search-condition-group>.search-type:hover .search-type-lists{
+    display: block;
+}
+.search-condition-group>.search-type:hover .search-type-lists.hidePiece{
+    display: none;
+}
+.header-phone-group{
+    float: right;
+    font-size: 0;
+    margin-top: 22px;
+}
+.header-phone-group>.phone{
+    width: 44px;
+    height: 37px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images/public/phone.png") no-repeat;
+}
+.header-phone-group>.txt-group{
+    margin-left: 9px;
+}
+.header-phone-group>.txt-group>.num{
+    font-size: 20px;
+    color: #0962c7;
+    font-weight: bold;
+}
+.header-phone-group>.txt-group>.txt{
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+.search-group>.serve-classify{
+    width: 100%;
+    overflow: hidden;
+    height: 20px;
+    font-size: 0;
+    padding-top: 6px;
+}
+.search-group>.serve-classify>a{
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+    margin: 0 10px;
+}
+.search-group>.serve-classify>a:first-child{
+    margin-left: 0;
+}
+.search-group>.serve-classify>a:hover{
+    color: #0962c7;
+}
+.search-group>.serve-classify>.main-color{
+    color: #0962c7;
+}
+/*platform nav*/
+.platform-nav{
+    height: 38px;
+    border-bottom: 1px solid #0962c7;
+    background-color: #0962c7;
+    margin-top: 110px;
+}
+.all-classify{
+    position: relative;
+    float: left;
+    width: 190px;
+    height: 38px;
+}
+.all-classify>.classify-btn{
+    width: 190px;
+    height: 38px;
+    background-color: #0962c7;
+    text-align: center;
+    font-size: 0;
+}
+.all-classify>.classify-btn:hover{
+    background-color: #036ae0;
+}
+.all-classify>.classify-btn>span{
+    font-size: 14px;
+    color: #fff;
+    line-height: 38px;
+}
+.all-classify>.classify-btn>i{
+    width: 7px;
+    height: 4px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images/public/triangle.png") no-repeat;
+    margin-left: 48px;
+}
+.page-lists{
+    float: left;
+    margin-left: 13px;
+    width: 980px;
+    height: 38px;
+    overflow: hidden;
+}
+.page-lists>li{
+    float: left;
+    margin: 0 5px;
+}
+.page-lists>li>a{
+    font-size: 16px;
+    color: #fff;
+    line-height: 38px;
+    padding: 0 22px;
+}
+.page-lists>li>a:hover{
+    background-color: #036ae0;
+}
+.page-lists>li>.active{
+    background-color: #036ae0;
+}
+.all-classify>.classify-details{
+    display: none;
+    height: 0;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    background-color: #0962c7;
+    width: 1190px;
+    padding: 20px 0;
+}
+.all-classify:hover .classify-details{
+    display: block;
+    height: auto;
+}
+.all-classify:hover .classify-btn>i{
+    background-position: -7px 0;
+}
+.all-classify>.classify-details>li{
+    float: left;
+    width: 202px;
+    padding: 0 20px 0 16px;
+    height: 40px;
+    overflow: hidden;
+}
+.all-classify>.classify-details>li>a{
+    line-height: 36px;
+    font-size: 14px;
+    color: #fff;
+    width: 140px;
+    height: 36px;
+    border-radius: 2px;
+    text-align: center;
+}
+.all-classify>.classify-details>li>a:hover{
+    text-decoration: underline;
+    background-color: #0c6fe0;
+}
+/*header end*/
+/*footer start*/
+.make-over-flow{
+    background-color: #0962c7;
+    padding: 25px 0;
+    text-align: center;
+}
+.make-over-flow .tit{
+    font-size: 24px;
+    color: #fff;
+}
+.make-over-flow .flow-lists{
+    overflow: hidden;
+    margin-top: 22px;
+}
+.make-over-flow .flow-lists>li{
+    float: left;
+    font-size: 0;
+}
+.make-over-flow .flow-lists>.list-cont{
+    border: 2px solid #127ad2;
+    border-radius: 5px;
+    width: 160px;
+    height: 42px;
+    padding-top: 6px;
+}
+.make-over-flow .flow-lists>.list-cont>i{
+    width: 35px;
+    height: 35px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images/public/flow-icons.png") no-repeat;
+}
+.make-over-flow .flow-lists>.list-cont>.list2{
+    background-position: -35px 0;
+}
+.make-over-flow .flow-lists>.list-cont>.list3{
+    background-position: -70px 0;
+}
+.make-over-flow .flow-lists>.list-cont>.list4{
+    background-position: -105px 0;
+}
+.make-over-flow .flow-lists>.list-cont>.list5{
+    background-position: -140px 0;
+}
+.make-over-flow .flow-lists>.list-cont>span{
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 18px;
+    margin-left: 9px;
+}
+.make-over-flow .flow-lists>.arrow{
+    width: 41px;
+    height: 12px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images/public/arrow.png") no-repeat;
+    margin: 19px 24px 0;
+}
+.footer-info{
+    padding: 25px 0 70px;
+}
+.friendship-link{
+    text-align: center;
+    font-size: 0;
+}
+.friendship-link>span{
+    font-size: 14px;
+    color: #999;
+    line-height: 15px;
+}
+.friendship-link-lists>a{
+    font-size: 14px;
+    color: #999;
+    padding: 0 14px;
+    border-left: 2px solid #d4d4d4;
+    line-height: 15px;
+}
+.friendship-link-lists>a:hover{
+    text-decoration: underline;
+}
+.friendship-link-lists>a:first-child{
+    padding-left: 0;
+    border-left: none;
+}
+.footer-info .copyright{
+    font-size: 14px;
+    color: #999;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 13px;
+}
+.footer-info .authentication{
+    font-size: 0;
+    text-align: center;
+    margin-top: 14px;
+}
+.footer-info .authentication>li{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    width: 100px;
+    height: 34px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images/public/footer-img.png") no-repeat;
+    margin-left: 10px;
+}
+.footer-info .authentication>.list2{
+    background-position: -110px 0;
+}
+.footer-info .authentication>.list3{
+    background-position: -220px 0;
+}
+.footer-info .authentication>.list4{
+    background-position: -330px 0;
+}
+/*footer end*/
+/*页面路径 start*/
+.page-site{
+    font-size: 0;
+    padding: 19px 0;
+}
+.page-site>.tit{
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+}
+.page-site>.cont{
+    font-size: 0;
+}
+.page-site>.cont>a{
+    font-size: 14px;
+    line-height: 16px;
+    color: #666;
+}
+.page-site>.cont>a:hover{
+    color: #0962c7;
+}
+.page-site>.cont>a:after{
+    content: ">";
+    font-size: 14px;
+    line-height: 16px;
+    color: #666;
+    margin-left: 4px;
+}
+.page-site>.cont>span{
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+}
+.page-site>.cont>span:after{
+    content: ">";
+    font-size: 14px;
+    line-height: 16px;
+    color: #999;
+    margin-left: 4px;
+}
+.page-site>.cont>span:last-child:after{
+    content: "";
+}
+.page-site>.cont>span>.num{
+    color: #0962c8;
+    padding-left: 6px;
+}
+/*页面路径 end*/
+/*用户中心 start*/
+.user-page>.page-site{
+    padding: 14px 0;
+}
+.user-page{
+    background-color: #fff;
+}
+.user-main{
+
+}
+.user-sidebar{
+    float: left;
+    width: 228px;
+    border: 1px solid #97ccff;
+}
+.user-content{
+    float: right;
+    width: 943px;
+    border: 1px solid #e5e5e5;
+}
+.no-border{
+    width: 943px;
+    border: none;
+}
+.user-sidebar-lists{
+    width: 100%;
+}
+.user-sidebar-lists>li{
+    width: 100%;
+}
+.user-sidebar-lists>li>a{
+    position: relative;
+    width: 125px;
+    padding: 0 48px 0 55px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 14px;
+    color: #1786ef;
+    font-weight: bold;
+    border-top: 1px solid #97ccff;
+    background-color: #e5f2ff;
+    /*margin-top: -1px;*/
+}
+.user-sidebar-lists>li>a:after{
+    position: absolute;
+    top: 23px;
+    right: 31px;
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images/public/arrows1.png") no-repeat;
+}
+.user-sidebar-lists>.open>a:after{
+    background-position: -12px 0;
+}
+.user-sidebar-lists>li:first-child>a{
+    border-top: none;
+}
+.user-sidebar-lists>li>.nav-lists{
+    display: none;
+    padding: 10px 0;
+    border-top: 1px solid #97ccff;
+    background-color: #fff !important;
+}
+.user-sidebar-lists>.open>.nav-lists{
+    display: block;
+    overflow: hidden;
+}
+.user-sidebar-lists>li>.nav-lists>a{
+    position: relative;
+    width: 150px;
+    padding-left: 30px;
+    margin: 12px 24px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #1786ef;
+}
+.user-sidebar-lists>li>.nav-lists>a:hover, .user-sidebar-lists>li>.nav-lists>.nowaday{
+    background-color: #1786ef;
+    color: #fff;
+}
+.user-sidebar-lists>li>.nav-lists>a:before{
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+}
+/*用户中心 end*/
+/*select 美化 start*/
+input.dummy{display: inline-block; border: 1px solid #dfe1eb; cursor: pointer !important; width: 148px; height: 32px; line-height: 32px; padding-left: 10px; background: url("http://www.cddgg.com/statics/new_ptw3/images/public/select2.png") right center no-repeat; overflow: hidden; text-overflow: ellipsis; color: #444; font-family: "微软雅黑"; font-size: 14px;}
+input.dummy.active{ border-color: #bbbed0;}
+#dummydata{position: absolute; z-index: 198910161111; background: #fff; max-height: 200px; overflow: auto; color: #888; border: 1px solid #e5e5e5;border-top: 0; box-sizing: content-box;}
+#dummydata a{display: block; color: #999; line-height: 30px; padding-left: 10px; text-overflow: ellipsis; overflow: hidden; height: 30px;}
+#dummydata a.selected{color: #999;}
+#dummydata a:hover{color: #333; text-decoration: none; background: #f8f8f8;}
+/*select 美化 end*/
+/*弹窗 start*/
+.issue-pop{
+    display: none;
+}
+.pure-public-pop .layui-layer-title{
+    font-size: 16px;
+    color: #666;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    background-color: #f5f5f5;
+}
+.pop-form-main{
+    width: 620px;
+    padding: 35px 0 42px;
+}
+.pop-form-main>.input-group{
+    width: 100%;
+    font-size: 0;
+    margin-top: 32px;
+}
+.pop-form-main>.input-group:first-child{
+    margin-top: 0;
+}
+.pop-form-main>.input-group>.tit{
+    width: 155px;
+    font-size: 16px;
+    color: #666;
+    line-height: 22px;
+    text-align: right;
+}
+.pop-form-main>.input-group>.tit>span{
+    color: #fa4f4f;
+}
+.pop-form-main>.input-group>input{
+    width: 368px;
+    height: 16px;
+    font-size: 12px;
+    color: #333;
+    line-height: 16px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    margin-left: 17px;
+    background-color: #f6f6f6;
+}
+.pop-form-main>.input-group>textarea{
+    display: inline-block;
+    vertical-align: top;
+    resize: none;
+    width: 368px;
+    height: 70px;
+    font-size: 12px;
+    color: #333;
+    line-height: 20px;
+    padding: 20px 10px 10px 10px;
+    border: 1px solid #e5e5e5;
+    margin-left: 17px;
+    background-color: #f6f6f6;
+}
+.pop-form-main>.handle-group{
+    font-size:0;
+    padding-left: 174px;
+    margin-top: 46px;
+}
+.pop-form-main>.handle-group>a{
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-right: 11px;
+    background-color: #1786ef;
+}
+.pop-form-main>.handle-group>span{
+    font-size: 14px;
+    color: #999;
+    margin-left: 20px;
+}
+.pure-public-pop .layui-layer-setwin{
+    top: 17px;
+    right: 20px;
+}
+.pure-public-pop .layui-layer-setwin .layui-layer-close1{
+    background-position: 0 0;
+}
+.pure-public-pop .layui-layer-ico{
+    width: 13px;
+    height: 13px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images/public/pop-close.png") no-repeat;
+}
+/*弹窗 end*/
+/*协议弹窗*/
+.layui-layer-title{
+    font-size:16px;
+}
+.consent-agreement-pop{
+    display: none;
+    width: 690px;
+    padding: 30px 30px 7px;
+}
+h3{
+    text-align:center;
+}
+h4{
+    padding-top:30px;
+}
+.consent-agreement-pop p{
+    padding-top:20px;
+    text-indent: 10px;
+    font-size:12px;
+    line-height:20px;
+}
+.consent-agreement-pop>.txt{
+    width: 100%;
+    min-height: 250px;
+    max-height: 500px;
+    overflow: auto;
+    /*font-size: 12px;*/
+    color: #333;
+    /*line-height: 18px;*/
+}
+.consent-agreement-pop>.handle-group{
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+}
+.consent-agreement-pop>.handle-group>.consent-btn{
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background: #1786ef;
+}
+/*迭代1.1*/
+.login-nav-new{
+    float: right;
+    font-size: 0;
+}
+.login-nav-new>.link-group{
+    font-size: 0;
+}
+.login-nav-new>.link-group>a{
+    position: relative;
+    font-size: 12px;
+    line-height: 34px;
+    color: #dfdfdf;
+    padding: 0 12px;
+}
+.login-nav-new>.link-group>a:before{
+    position: absolute;
+    left: 0;
+    top: 12px;
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 11px;
+    border-left: 1px solid #fff;
+}
+.login-nav-new>.link-group>a:first-child:before{
+    content: none;
+}
+.login-nav-new>.link-group>a:hover{
+    color: #fff;
+}
+.login-nav-new>.phone-group{
+    font-size: 0;
+    margin-left: 3px;
+}
+.login-nav-new>.phone-group>i{
+    width: 27px;
+    height: 22px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images/public/phone-icon.png") no-repeat;
+}
+.login-nav-new>.phone-group>span{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 6px;
+    line-height: 34px;
+}
+.header-cont>.header-handle{
+    font-size: 0;
+    float: right;
+    margin: 24px 12px 0 0;
+}
+.header-cont>.header-handle>a{
+    width: 100px;
+    height: 40px;
+    font-size: 0;
+    text-align: center;
+}
+.header-cont>.header-handle>.buy-btn{
+    background-color: #54506a;
+}
+.header-cont>.header-handle>.sell-btn{
+    background-color: #f17260;
+}
+.header-cont>.header-handle>a>i{
+    width: 20px;
+    height: 20px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images/public/btn-icon.png") no-repeat;
+}
+.header-cont>.header-handle>.sell-btn>i{
+    background-position: -20px 0;
+}
+.header-cont>.header-handle>a>span{
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+    margin-left: 3px;
+}
+/*footer*/
+.footer-group-new{
+    overflow: hidden;
+}
+.footer-group-new>.introduce{
+    float: left;
+    width: 385px;
+}
+.footer-group-new>.introduce>.tit{
+    font-size: 0;
+}
+.footer-group-new>.introduce>.tit>span{
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+}
+.footer-group-new>.introduce>.tit>.name{
+    font-size: 24px;
+    color: #333;
+    margin-right: 12px;
+}
+.footer-group-new>.introduce>.describe{
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+    margin-top: 14px;
+}
+.footer-group-new>.friendly-link{
+    position: relative;
+    float: left;
+    width: 440px;
+    margin-left: 30px;
+}
+.footer-group-new>.friendly-link:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 0;
+    height: 108px;
+    border-left: 1px solid #e5e5e5;
+}
+.footer-group-new>.friendly-link:after{
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: "";
+    width: 0;
+    height: 108px;
+    border-left: 1px solid #e5e5e5;
+}
+.footer-group-new>.friendly-link>.link-group{
+    text-align: center;
+    font-size: 0;
+}
+.footer-group-new>.friendly-link>.link-group>a{
+    font-size: 14px;
+    color: #333;
+    padding: 0 14px;
+    line-height: 14px;
+    border-left: 2px solid #b2b2b2;
+}
+.footer-group-new>.friendly-link>.link-group>a:hover span{
+    text-decoration: underline;
+}
+.footer-group-new>.friendly-link>.link-group>a:first-child{
+    border-left: none;
+}
+.footer-group-new>.friendly-link>.code-group{
+    text-align: center;
+    font-size: 0;
+    margin: 6px 0 0 0;
+}
+.footer-group-new>.friendly-link>.code-group>.code-list{
+    width: 116px;
+}
+.footer-group-new>.friendly-link>.code-group>.code-list>.img-box{
+    width: 73px;
+    height: 73px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.footer-group-new>.friendly-link>.code-group>.code-list>.img-box>img{
+    width: 100%;
+    height: 100%;
+}
+.footer-group-new>.friendly-link>.code-group>.code-list>p{
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-top: 3px;
+}
+.footer-group-new>.relation-type{
+    float: right;
+    width: 250px;
+}
+.footer-group-new>.relation-type>li{
+    font-size: 0;
+    margin-bottom: 12px;
+}
+.footer-group-new>.relation-type>li>i{
+    width: 30px;
+    height: 30px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images/public/footer-icons.png") no-repeat;
+    margin-right: 8px;
+}
+.footer-group-new>.relation-type>li>.icon2{
+    background-position: -30px 0;
+}
+.footer-group-new>.relation-type>li>.icon3{
+    background-position: -60px 0;
+}
+.footer-group-new>.relation-type>li>.txt-group{
+
+}
+.footer-group-new>.relation-type>li>.txt-group>.num{
+    font-size: 24px;
+    color: #fa4f4f;
+}
+.footer-group-new>.relation-type>li>.txt-group>.txt{
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+    width: 210px;
+}
+.footer-group-new>.relation-type>li>.txt{
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+    width: 210px;
+}
+.copyright-txt{
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+}

@@ -1,0 +1,2051 @@
+/**
+*author: lyh
+*time:2018/5/7
+*content: �İ�
+*/
+.hh{
+    width: 200px;
+    vertical-align: middle;
+    margin: 35px 20px 15px 0;
+}
+.tit-icon{
+    height: 53px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/index/icon02.png") no-repeat;
+    margin-right: 10px;
+}
+.tit-icon.cy{
+    width: 44px;
+}
+.tit-icon.zc{
+    width: 40px;
+    background-position: -53px 0;
+}
+.tit-icon.dk{
+    width: 45px;
+    background-position: -159px 0;
+}
+.tit-icon.hlw{
+    width: 48px;
+    background-position: -217px 0;
+}
+.tit-icon.zz{
+    width: 48px;
+    background-position: -104px 0;
+}
+.tit-icon.jz{
+    width: 53px;
+    background-position: -277px 0;
+}
+.tit-txt{
+    font-size: 25px;
+    /*color:#333;*/
+    color:#ff7e00;
+}
+/*banner start*/
+.inside-banner{background: #fff;padding:9px 0 0;height:455px;}
+.inside-banner>.bd {
+    width: 700px;
+    position: absolute;
+    left: 50%;
+    margin-left: -364px;
+    height: 440px;
+    z-index: 0;
+    overflow: hidden;
+}
+.inside-banner>.bd ul li{
+	overflow: hidden;
+}
+.inside-banner>.bd img{
+	width: 100%;
+	height: 100%;
+}
+.inside-dot{z-index: 1;bottom: 40px;}
+.greet-dgg{
+    width: 240px;
+    height: 440px;
+    position: absolute;
+    top: 9px;
+    left: 50%;
+    margin-left: 351px;
+    text-align: center;
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/public/greet-bg_03.jpg") center top no-repeat #fff;
+    box-shadow: -3px 1px 27px -6px #b3b3b3;
+}
+/*�����?  start*/
+.greet-dgg2{
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/index/form-bg_03.jpg") center top no-repeat #fff;
+}
+.banner-form{
+    text-align: center;
+    padding: 0 15px;
+    line-height: 1;
+}
+.banner-form p{
+    font-size: 18px;
+    color: #ff7e00;
+    padding: 22px 0 13px;
+}
+.banner-input{
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+.banner-input>i{
+    width: 12px;
+    height: 16px;
+    background-position: -83px 0;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+.banner-input>i.sever{
+    width: 13px;
+    height: 19px;
+}
+.banner-input .tel-icon{
+    width: 10px;
+    height: 17px;
+    background-position: -95px 0;
+    top: 11px;
+    left: 11px;
+}
+.banner-input .yz-icon{
+    width: 12px;
+    height: 14px;
+    background-position: -105px 0;
+    top: 12px;
+    left: 12px;
+}
+.banner-input input{
+    font-size: 13px;
+    text-align: left;
+    padding-left: 35px;
+    width: 173px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #c8c7cc;
+    border-radius: 3px;
+}
+.banner-input input::-webkit-input-placeholder{
+    color: #666;
+}
+.banner-input input:focus{
+    border:1px solid #9b9b9c;
+}
+/*select start*/
+input.dummy{
+    display: inline-block;
+    border: 1px solid #c8c7cc;
+    cursor: pointer !important;
+    width: 173px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 35px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/public/image02.png") 188px 15px no-repeat;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666;
+    font-size: 13px;
+}
+input.dummy:focus{
+    border:1px solid #9b9b9c;
+}
+#dummydata{
+    position: absolute;
+    width:174px;
+    z-index: 198910161111;
+    background: #fff;
+    height: 160px;
+    overflow: auto;
+    color: #888;
+    border: 1px solid #bbb;
+    border-top: 0;
+    box-sizing: content-box;
+}
+#dummydata a{
+    display: block;
+    width: 174px;
+    line-height: 32px;
+    padding-left:35px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 32px !important;
+    font-size: 13px;
+    color: #666;
+    border: none !important;
+}
+#dummydata a:hover{
+    text-decoration: none;
+    background: #e7e5e5 !important;
+    color:#666;
+}
+#dummydata a.selected{
+    color:#2654d0;
+}
+/*select end*/
+/*.yz-box{*/
+    /*overflow: hidden;*/
+/*}*/
+/*.yz-box .banner-input{*/
+    /*width:140px ;*/
+/*}*/
+/*.yz-box .banner-input input{*/
+    /*width: 103px;*/
+/*}*/
+/*.yz-box img{*/
+    /*width: 67px;*/
+    /*height: 36px;*/
+    /*cursor: pointer;*/
+/*}*/
+.banner-form button{
+    width: 210px;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    color: #fff;
+    background: #ff7e00;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.greet-bz>h5{
+    font-size: 15px;
+    color: #333;
+    line-height: 1;
+    padding: 42px 0 15px;
+    border-top: 1px solid #f2f2f2;
+}
+.greet-bz>p{
+    width: 100%;
+    overflow: hidden;
+}
+.greet-bz>p span{
+    display: block;
+    width: 33.33%;
+    text-align: center;
+    float: left;
+    line-height:1;
+    font-size: 14px;
+    color: #888;
+}
+.txtMarquee-top{margin-bottom: 19px;}
+.greet-bz>p i{
+    width: 20px;
+    height: 20px;
+    background-position: -118px 0;
+    margin-bottom: 7px;
+}
+.greet-bz>p .greet-icon2{background-position: -138px 0;}
+.greet-bz>p .greet-icon3{background-position: -158px 0;}
+/*�����?  end*/
+.banner-form
+.dgg-img{margin: 24px auto 2px;}
+.dgg-login p{font-size: 14px;}
+.greet-dgg>p{
+    line-height: 30px;
+    color: #888;
+}
+.dgg-login{
+    width: 200px;
+    margin: 0 auto 16px;
+    overflow: hidden;
+}
+.dgg-login a{
+    width: 88px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid #2654d0;
+    font-size: 14px;
+    color: #2654d0;
+    border-radius: 3px;
+}
+.dgg-login a:first-child{
+    background: #2654d0;
+    color: #fff !important;
+}
+.dgg-login a:hover{
+    background: #2654d0;
+    color: #fff ;
+}
+.top-list li{
+    font-size: 14px;
+    color: #888;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 23px;
+}
+.top-list li span{
+    padding-right: 35px;
+}
+.greet-wx{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0 0;
+    border-top: 1px solid #f2f2f2;
+    padding: 15px 0 0;
+}
+.greet-wx p{color: #666;line-height: 32px;}
+/*banner end*/
+/*�������� start*/
+.group-advantage{
+    text-align: center;
+    padding: 27px 0 20px;
+}
+.tit-up{
+    font-size: 25px;
+    color:#333;
+    font-weight: bold;
+}
+.group-advantage>ul{
+    margin-top: 20px;
+}
+.group-advantage>ul>li{
+    float: left;
+    font-size: 12px;
+    color:#fff;
+    /*width: 161px;*/
+    /*height: 183px;*/
+    height: 178px;
+    width: 178px;
+    border-radius: 50%;
+    margin: 0 55px;
+    box-sizing: border-box;
+    /*margin: 0 66px;*/
+    background: #2548c2;
+    padding: 35px;
+    /*background:url("http://www.cddgg.com/statics/new_ptw3/img/index/part-one.png") no-repeat;*/
+}
+/*.group-advantage>ul>li.two{*/
+    /*background-position: -179px 0;*/
+/*}*/
+/*.group-advantage>ul>li.three{*/
+    /*background-position: -355px 0;*/
+/*}*/
+/*.group-advantage>ul>li.four{*/
+    /*background-position: -533px 0;*/
+/*}*/
+.group-advantage>ul>li>i{
+    width: 111px;
+    height:2px;
+    /*background:url("http://www.cddgg.com/statics/new_ptw3/img/index/part-obe01.png") no-repeat;*/
+    /*margin: 35px 0 15px;*/
+    background:url("http://www.cddgg.com/statics/new_ptw3/img/index/add123.png") no-repeat;
+}
+/*.group-advantage>ul>li.one>i{*/
+    /*width: 34px;*/
+/*}*/
+/*.group-advantage>ul>li.two>i{*/
+    /*width: 48px;*/
+    /*background-position: -40px 0;*/
+/*}*/
+/*.group-advantage>ul>li.three>i{*/
+    /*width: 39px;*/
+    /*background-position: -103px 0;*/
+/*}*/
+/*.group-advantage>ul>li.four>i{*/
+    /*width: 38px;*/
+    /*background-position: -156px 0;*/
+/*}*/
+.group-advantage>ul>li>p{
+    /*font-size: 16px;*/
+    font-weight: bold;
+    font-size: 21px;
+}
+.group-advantage>ul>li>span{
+    font-size: 18px;
+}
+/*�������� end*/
+/*��Ʒ���� start*/
+body{
+    background:#fff !important;
+}
+.product-center{
+    padding: 20px 0;
+    text-align: center;
+    background:#fff;
+}
+.product-center>.product-cont{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.product-center>.product-cont>.gg-cont{
+    width: 954px;
+    height: 79px;
+    margin: 15px auto 15px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.product-center>.product-cont>.gg-cont img{
+    width: 100%;
+    height: 100%;
+}
+/*.product-center>.product-cont>p{*/
+    /*border-left: 2px solid #ff0000;*/
+    /*font-size: 16px;*/
+    /*color:#333;*/
+    /*padding-left: 10px;*/
+    /*margin: 10px 0;*/
+    /*font-weight: bold;*/
+/*}*/
+/*��ҵ��չ start*/
+.product-center .down-cont>.left{
+    position: relative;
+    top:0;
+    width: 200px;
+    height: 270px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+}
+.product-center .down-cont>.left>.bg{
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    overflow: hidden;
+    text-align: center;
+    background:url("http://www.cddgg.com/statics/new_ptw3/img/index/part-two01.png") no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.product-center .down-cont>.left:hover>.bg{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+}
+.product-center .down-cont>.left>.search{
+    position: relative;
+    z-index: 33;
+    width: 164px;
+    height: 30px;
+    background: #fff;
+    border-radius: 20px;
+    margin-top: 206px;
+}
+.product-center .down-cont>.left>.search>input{
+    width: 105px;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+.product-center .down-cont>.left>.search>input::-webkit-input-placeholder{
+    color:#999;
+}
+.product-center .down-cont>.left>.search>input::-moz-placeholder{
+    color:#999;
+}
+.product-center .down-cont>.left>.search>a{
+    width: 15px;
+    height:15px;
+    background:url("http://www.cddgg.com/statics/new_ptw3/img/index/search.png") no-repeat;
+}
+.product-center .down-cont>.mid{
+    position: relative;
+    width: 311px;
+    height: 255px;
+    margin: 0 20px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    padding: 15px 0 0 25px;
+    overflow: hidden;
+}
+.product-center .down-cont>.mid>.txt>b{
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    font-size: 20px;
+    color:#333;
+    margin-bottom: 10px;
+}
+.product-center .down-cont>.mid>.txt>span{
+    font-size: 14px;
+    color:#666;
+    display: inline-block;
+    line-height: 28px;
+    *zoom: 1;
+    *display: inline;
+    margin-right: 30px;
+}
+.product-center .down-cont>.mid>i{
+    width: 238px;
+    height: 159px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+}
+.product-center .down-cont>.mid:hover>i{
+    right: 10px;
+}
+.product-center .down-cont>.mid>i>img{
+    width: 100%;
+    height:100%;
+}
+.product-center .down-cont>.right{
+    width: 594px;
+    vertical-align: top;
+}
+.product-center .down-cont>.right>ul>li>a{
+    position: relative;
+    float: left;
+    width: 260px;
+    height: 124px;
+    border: 1px solid #ddd;
+    background:#f5f4f6;
+    padding-left: 24px;
+    color:#333;
+    overflow: hidden;
+}
+.product-center .down-cont>.right>ul>li.one>a{
+    margin: 0 20px 20px 0;
+    color:#16a2f8;
+    background:#e8f5fd;
+}
+.product-center .down-cont>.right>ul>li.two>a{
+    margin-bottom: 20px;
+    color:#3e05e7;
+    background:#f5effd;
+}
+.product-center .down-cont>.right>ul>li.three>a{
+    margin-right: 20px;
+    background:#52c1ba;
+    color:#fff;
+}
+.product-center .down-cont>.right>ul>li i{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 90px;
+    height: 70px;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+}
+.product-center .down-cont>.right>ul>li:hover i{
+    right: 10px;
+}
+.product-center .down-cont>.right>ul>li.one i{
+    width: 130px;
+}
+.product-center .down-cont>.right>ul>li i>img{
+    width: 100%;
+    height: 100%;
+}
+.product-center .down-cont>.right>ul>li b{
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0 5px;
+}
+.product-center .down-cont>.right>ul>li p,span{
+    font-size: 13px;
+}
+
+/*֪ʶ��Ȩ start*/
+.product-center .down-cont.zscq-cont>.left>.bg{
+    background:url("http://www.cddgg.com/statics/new_ptw3/img/index/sss.jpg") no-repeat;
+    background-size:cover;
+}
+.product-center .down-cont.zscq-cont>.left>.search>a{
+    background:url("http://www.cddgg.com/statics/new_ptw3/img/index/search.png") -19px 0 no-repeat;
+}
+.product-center .down-cont.zscq-cont>.mid{
+    width: 243px;
+    height: 254px;
+}
+.product-center .down-cont.zscq-cont>.right>ul>li i{
+    width: 80px;
+}
+.product-center .down-cont.zscq-cont>.right>ul>li i.add-style{
+    width:120px;
+}
+.product-center .down-cont.zscq-cont>.right>ul>li>a{
+    width: 176px;
+    height: 122px;
+    overflow: hidden;
+}
+.product-center .down-cont.zscq-cont>.right>ul>li>a.bm{
+    margin-bottom:24px;
+}
+.product-center .down-cont.zscq-cont>.right>ul>li>a.rm{
+    margin-right: 27px;
+}
+.product-center .down-cont.zscq-cont>.right{
+    width: 662px;
+}
+.product-center .down-cont.zscq-cont>.mid{
+    background:#ecf2f2;
+}
+.product-center .down-cont.zscq-cont>.mid>i{
+    position: absolute;
+    left: -12px;
+    top: 24px;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+}
+.product-center .down-cont.zscq-cont>.mid:hover>i{
+    left:-20px;
+}
+.product-center .down-cont.zscq-cont>.mid>.txt>b{
+    position: relative;
+    z-index: 6;
+    top: 168px;
+    left: 73px;
+}
+.product-center .down-cont.zscq-cont>.right>ul>li span{
+    position: relative;
+    z-index: 3;
+    width: 76px;
+    height: 22px;
+    line-height: 22px;
+    background: #fff;
+    border:1px solid #1cc1ba;
+    color:#1cc1ba;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.product-center .down-cont.zscq-cont>.right>ul>li span:hover{
+    background: #1cc1ba;
+    border:1px solid #1cc1ba;
+    color:#fff;
+}
+/*���ʴ�� start*/
+.product-center .down-cont.rzdk-cont>.left>.bg{
+    background:url("http://www.cddgg.com/statics/new_ptw3/img/index/ddd.jpg") no-repeat;
+    background-size:cover;
+}
+.product-center .down-cont.rzdk-cont>.left>.txt-btn{
+    position: relative;
+    z-index: 3;
+    top: 179px;
+}
+.rzdk-cont>.left>.txt-btn>a{
+    width: 94px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color:#fff;
+    background:rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+.rzdk-cont>.left>.txt-btn>a:hover{
+    background:rgba(0,0,0,0.3);
+}
+.rzdk-cont>.left>.txt-btn>a.one{
+    margin-right: 8px;
+}
+.product-center .down-cont.rzdk-cont>.right{
+    margin: 0 20px;
+    width: 675px;
+}
+.product-center .down-cont.rzdk-cont>.mid{
+    margin: 0;
+    background:#fff5f3;
+}
+.product-center .down-cont.rzdk-cont>.right>ul>li>a{
+    width: 300px;
+    background: #fff;
+    color: #333 !important;
+}
+.product-center .down-cont.rzdk-cont>.right>ul>li b,p,span{
+    position: relative;
+    z-index: 66;
+    top:0;
+    left: 0;
+}
+.product-center .down-cont.rzdk-cont>.right>ul>li b{
+    margin: 15px 0 5px;
+}
+.product-center .down-cont.rzdk-cont>.right>ul>li p{
+    line-height: 16px;
+    color:#666;
+}
+.product-center .down-cont.rzdk-cont>.right>ul>li span{
+    width: 76px;
+    height: 22px;
+    line-height: 22px;
+    background: #fff;
+    border:1px solid #ff5c5d;
+    color: #ff5c5d;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.product-center .down-cont.rzdk-cont>.right>ul>li span:hover{
+    background: #ff5c5d;
+    color: #fff;
+}
+.product-center .down-cont.rzdk-cont>.right>ul>li i{
+    width: 329px;
+    height: 126px;
+}
+.product-center .down-cont.rzdk-cont>.right>ul>li:hover i{
+    right: 0;
+}
+.product-center .down-cont.rzdk-cont>.mid{
+    width: 254px;
+    text-align: center;
+    padding-left:0;
+}
+.product-center .down-cont.rzdk-cont>.mid>.txt b{
+    color:#ff5555;
+    margin: 10px 0 0;
+}
+.product-center .down-cont.rzdk-cont>.mid>.txt>span{
+    margin-right: 0;
+    color:#ff5555;
+}
+.product-center .down-cont.rzdk-cont>.mid>i{
+    width: 151px;
+    height: 123px;
+    right: 50px;
+    bottom: 10px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.product-center .down-cont.rzdk-cont>.mid:hover>i{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+}
+.rzdk-cont>.mid>a{
+    width: 113px;
+    height: 32px;
+    line-height: 32px;
+    background:#ff5555;
+    color:#fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.rzdk-cont>.mid>a:hover{
+    opacity: 0.8;
+}
+/*��������� start*/
+.product-center .zscq-cont.hlw-cont>.right{
+    width: 1180px;
+}
+.product-center .zscq-cont.hlw-cont>.right>ul>li>a{
+    width: 280px;
+    text-align: left;
+    padding-left: 15px;
+}
+.product-center .zscq-cont.hlw-cont>.right>ul>li>a.a2{
+    width: 235px;
+}
+.product-center .down-cont.hlw-cont>.right>ul>li i{
+    width: auto;
+    height:124px;
+}
+.product-center .zscq-cont.hlw-cont>.right>ul>li>a.a2>i{
+    width: 250px;
+}
+.product-center .zscq-cont.hlw-cont>.right>ul>li>a.a2>i.one{
+    width: 130px;
+    height: 70px;
+}
+.product-center .down-cont.hlw-cont>.right>ul>li:hover i{
+    right: 0;
+}
+.hlw-cont>.right>ul>li>a{
+    position: relative;
+}
+.hlw-cont>.right>ul>li a>.add-block{
+    display: none;
+    position: absolute;
+    z-index: 99;
+    top:0;
+    left: 0;
+    width: 304px;
+    height: 122px;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    text-align: center;
+}
+.hlw-cont>.right>ul>li:hover a>.add-block{
+    display: block;
+}
+.hlw-cont>.right>ul>li a>.add-block>i{
+    position: relative;
+    background:url("http://www.cddgg.com/statics/new_ptw3/img/index/hlw-icon.png") no-repeat;
+    margin: 10px 0 5px;
+}
+.hlw-cont>.right>ul>li a>.add-block>i.one{
+    width: 51px;
+    height: 57px;
+}
+.hlw-cont>.right>ul>li a>.add-block>i.two{
+    width: 62px;
+    height: 62px;
+    background-position: -60px 0;
+}
+.hlw-cont>.right>ul>li a>.add-block>i.three{
+    width: 38px;
+    height: 60px;
+    background-position: -132px 0;
+}
+.hlw-cont>.right>ul>li a>.add-block>i.four{
+    width: 50px;
+    height: 55px;
+    background-position: -181px 0;
+}
+.hlw-cont>.right>ul>li a>.add-block>p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-center .zscq-cont.hlw-cont>.right>ul>li>a>p{
+    font-size: 14px;
+    font-weight: bold;
+    color:#fff;
+    margin-top: 15px;
+}
+.product-center .zscq-cont.hlw-cont>.right>ul>li>a>p.p1{
+    color:#333;
+}
+.product-center .zscq-cont.hlw-cont>.right>ul>li>a>span{
+    background: #00479d;
+    border:1px solid #00479d;
+    color:#fff;
+}
+.product-center .zscq-cont.hlw-cont>.right>ul>li>a>span:hover{
+    background: #fff;
+    border:1px solid #00479d;
+    color:#00479d;
+}
+/*���ʷ��� start*/
+.product-center .down-cont.zz-cont>.left>.bg{
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/index/zz01.jpg") no-repeat;
+    background-size: cover;
+}
+.zz-cont>.left>a{
+    position: relative;
+    z-index: 66;
+    top:200px;
+    width: 115px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #f98b1c;
+    background:#fff;
+    color:#f98b1c;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.zz-cont>.left>a:hover{
+    color:#fff;
+    background:#f98b1c;
+    border: 1px solid #f98b1c;
+}
+.product-center .rzdk-cont.zz-cont>.right{
+    width: 212px;
+}
+.product-center .down-cont.rzdk-cont.zz-cont>.right>ul>li>a{
+    width: 188px;
+}
+.product-center .down-cont.rzdk-cont.zz-cont>.mid.last-form{
+    width: 202px;
+}
+.product-center .down-cont.rzdk-cont.zz-cont>.right>ul>li i{
+    width: 212px;
+    height: 126px;
+}
+.zz-cont>.right>ul>li i>img{
+    width: 100%;
+    height: 100%;
+}
+.zz-cont>.mid>.txt{
+    text-align: left;
+    padding-left: 24px;
+}
+.zz-cont>.mid>.txt>span{
+    font-size: 13px !important;
+    color:#333 !important;
+    width: 113px !important;
+}
+.product-center .down-cont.rzdk-cont.zz-cont>.mid>i{
+    right: 0;
+    bottom: 0;
+}
+.zz-cont>.right>ul>li>a{
+    position: relative;
+}
+.zz-cont>.right>ul>li>a>.add-block{
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;z-index: 33;
+    width: 212px;
+    height: 126px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color:#fff;
+    font-size: 14px;
+}
+.zz-cont>.right>ul>li:hover>a>.add-block{
+    display: block;
+}
+.zz-cont>.right>ul>li b{
+    margin: 35px 0 10px !important;
+}
+.product-center .down-cont.rzdk-cont.zz-cont>.mid{
+    background: #fff;
+}
+.last-form{
+    background: #636363 !important;
+    color:#fff;
+}
+.last-form>h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.last-form>span{
+    font-size: 12px;
+}
+.last-form>form{
+    margin-top: 10px;
+}
+.last-form>form>div{
+    width: 168px;
+    height: 29px;
+    background: #fff;
+    margin-bottom: 8px;
+}
+.last-form>form>div i{
+    width: 32px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/index/tel.png") no-repeat;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.last-form>form>div.type i{
+    height: 16px;
+}
+.last-form>form>div.grade i{
+    height: 22px;
+    background-position: 0 -37px;
+}
+.last-form>form>div.name i{
+    height: 21px;
+    background-position: 0 -75px;
+}
+.last-form>form>div.tel i{
+    height: 27px;
+    background-position: 0 -111px;
+}
+.last-form>form>div input{
+    width:128px ;
+    height: 29px;
+    font-size: 10px;
+    vertical-align: middle;
+}
+.last-form>form>a{
+    width: 168px;
+    height: 36px;
+    line-height: 36px;
+    background: #f98b1c;
+    color:#fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+.last-form>form>a:hover{
+    background:#e49203;
+}
+
+.product-center .down-cont.zz-cont>.right>ul>li>a>.add-block>span{
+    width: 88px;
+    height: 25px;
+    line-height: 25px;
+    color:#f98b1c !important;
+    background:#fff !important;
+    border:1px solid #f98b1c !important;
+}
+.product-center .down-cont.zz-cont>.right>ul>li>a> .add-block:hover>span{
+    color:#fff !important;
+    background:#f98b1c !important;
+    border:1px solid #f98b1c !important;
+}
+/*װ�޷��� start*/
+.product-center .down-cont.rzdk-cont.zx-cont>.left>.bg{
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/index/zx01.jpg") no-repeat;
+    background-size: cover;
+}
+.zx-cont>.left02{
+    width: 268px;
+    height: 270px;
+    overflow: hidden;
+    margin-left: 21px;
+}
+.zx-cont>.left02>.bg{
+    /*width: 235px;*/
+    width: 268px;
+    height: 270px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/index/zx02-2.jpg") no-repeat;
+    background-size: cover;
+    /*margin-left: 21px;*/
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.zx-cont>.left02:hover>.bg{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+}
+.product-center .down-cont.rzdk-cont.zx-cont>.right{
+    width: 327px;
+    margin: 0 48px;
+}
+.product-center .down-cont.rzdk-cont.zx-cont>.right>ul>li>a{
+    width: 303px;
+    overflow: hidden;
+}
+.product-center .down-cont.rzdk-cont.zx-cont>.right>ul>li i{
+    width: 327px;
+    left: 0;
+    top:0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.zx-cont>.right>ul>li:hover i{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+}
+.product-center .down-cont.rzdk-cont.zx-cont>.mid{
+    float: right;
+}
+.product-center .down-cont.rzdk-cont.zx-cont>.mid>i{
+    top:0;
+    left: 0;
+    width: 256px;
+    height: 200px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.zx-cont>.mid:hover>i{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+}
+.rzdk-cont.zx-cont>.mid>a{
+    width: 256px;
+    height: 65px;
+    font-size: 20px;
+    background:#f39d08;
+    line-height: 65px;
+    margin-top: 190px;
+}
+/*��Ʒ���� end*/
+/*���·������� start*/
+.bg-box.box1{
+    display: none;
+    width: 100%;
+    min-width: 1180px;
+    height: 548px;
+    position: relative;
+    margin: 40px auto;
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/index/ggg.jpg") center top no-repeat;
+}
+.bg-box.box1 .tt-h3{
+    color:#fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 0;
+}
+#citys{
+    background: #fff;
+    position: absolute;
+    top: 47px;
+    left: 44px;
+    width:360px;
+    padding: 30px;
+    z-index:-5;
+    border: 1px solid #eee;
+    border-top: none;
+}
+#citys:before{
+    content: "";
+    width: 16px;
+    height: 10px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/index/icon.png") no-repeat;
+    position: absolute;
+    top: -10px;
+    left: 16px;
+}
+#citys a{
+    font-size: 14px;
+    color: #333;
+    margin-right: 15px;
+}
+#citys a:hover{
+    color: #2654d0;
+}
+#citys a.cur
+.btl-box{
+    overflow: hidden;
+}
+.btl-state{
+    width: 260px;
+    height: 320px;
+    background:#ffe6d2;
+    text-align: center;
+    color: #fff;
+}
+.btl-state h5{
+    width: 100%;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    background: #fc9258;
+    margin-bottom: 30px;
+}
+.btl-state p{
+    width: 218px;
+    height: 40px;
+    margin: 0 auto 15px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: left;
+    color: #fc9258;
+    border: 1px solid #fc9258;
+    background: #fff;
+}
+.btl-state p span{
+    width:42px;
+    height:42px;
+    background: #fc9258;
+    vertical-align: middle;
+    margin-right:15px;
+    color: #fff;
+    line-height: 42px;
+    text-align: center;
+    font-size: 20px;
+}
+.btl-form{
+    width: 420px;
+    height: 260px;
+    padding: 60px 0 0;
+    background: #ff7e00;
+    text-align: center;
+}
+.btl-input{
+    position: relative;
+    padding: 0 20px ;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: left;
+}
+.btl-input span{
+    font-size: 16px;
+    color: #fff;
+    line-height: 46px;
+}
+.input-box,.btl-input>input,.btl-input>button{
+    width: 300px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+.btl-input>input,.btl-input>button,.input-box .input-down{
+    background: #fff;
+    border-radius: 3px;
+}
+.input-down select{
+    border: none;
+    font-size: 13px;
+    color: #333;
+    ext-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 46px;
+    line-height: 46px;
+    width: 165px;
+    padding-left: 10px;
+    -moz-appearance: none;
+    -webkit-appearance:none;
+    appearance:none;
+}
+.btl-input>button{
+    background: #fff494;
+    font-size: 18px;
+    color: #2654d0;
+}
+.input-box .input-down{
+    width: 165px;
+    height: 46px;
+    position: relative;
+}
+.btl-input>input{width: 290px;}
+.btl-input>input{
+    padding-left: 10px;
+    text-align: left;
+}
+.tab-text{
+    line-height: 46px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.tab-text>i{
+    width: 13px;
+    height: 16px;
+    background-position: -219px 0;
+    position: absolute;
+    left: -15px;
+    top: 15px;
+}
+.tab-text>span{margin-right: 10px;}
+.tab-text>a{color: #fff494;}
+#dummydata a {
+    height: 40px;
+    border-top: 1px solid #ccc;
+}
+#dummydata a:first-child{border: none !important;}
+#dummydata a:hover {
+    background: #ff7f00;
+}
+.input-box .input-down>i{
+    width: 10px;
+    height: 5px;
+    background-position: -209px 0;
+    position: absolute;
+    top: 21px;
+    right:14px;
+    z-index: 5;
+}
+.map-box{
+    width: 480px;
+    height: 320px;
+}
+/*���ذٶȵ�ͼlogo*/
+.anchorBL{
+    display: none;
+}
+.banner-gg{
+    padding: 30px 0 20px;
+}
+.banner-gg>a{
+    display: block;
+    width: 1180px;
+    height: 100px;
+}
+/*��ͼ end*/
+/*���·������� end*/
+/*banner修改 2018/7/23*/
+/*.inside-banner{background: #fff;padding:9px 0 0;height:455px;}*/
+/*.inside-banner>.bd {*/
+    /*width: 1920px;*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*margin-left: -960px;*/
+    /*height: 440px;*/
+    /*z-index: 0;*/
+    /*overflow: hidden;*/
+/*}*/
+/*.inside-banner>.bd ul li{*/
+    /*overflow: hidden;*/
+/*}*/
+.tit-icon{
+    height: 59px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images02/icon.png") no-repeat;
+    margin-right: 10px;
+}
+.tit-icon.cy {
+    width: 54px;
+}
+.product-center>.product-cont>.gg-cont{
+    width: 903px;
+    margin-bottom: 20px;
+}
+.hh{
+    margin: 25px 20px 15px 0;
+}
+/*创业发展*/
+.modify-parr-box img{
+    width: 100%;
+    height: 100%;
+}
+.modify-parr-box>.pic-left{
+    width: 254px;
+    height: 369px;
+}
+.modify-parr-box>.a-right{
+    width: 923px;
+    font-size: 0;
+    overflow: hidden;
+}
+.modify-parr-box>.a-right>li{
+    float: left;
+    width: 441px;
+    height: 174px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 0 0 20px 20px;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    box-shadow: 1px 1px 10px #ddd;
+    overflow: hidden;
+}
+.modify-parr-box>.a-right>li>.left{
+    width: 120px;
+}
+.modify-parr-box>.a-right>li>.left>i{
+    width: 100px;
+    height:85px;
+    margin-left: 10px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images02/icon02.png") no-repeat;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.modify-parr-box>.a-right>li:hover>.left>i{
+    -webkit-transform: translateY(-10px);
+    -moz-transform:translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+.modify-parr-box>.a-right>li>.left>i.two{
+    width: 106px;
+    background-position: -143px 0;
+}
+.modify-parr-box>.a-right>li>.left>i.three{
+    width: 90px;
+    background-position: -306px 0;
+}
+.modify-parr-box>.a-right>li>.left>i.four{
+    width: 90px;
+    background-position: -444px 0;
+}
+.modify-parr-box>.a-right>li>.left>h3{
+    font-size: 18px;
+    color:#ff7e00;
+    font-weight: bold;
+    margin: 10px 0 2px;
+}
+.modify-parr-box>.a-right>li>.left>span{
+    width: 100%;
+    text-align: center;
+    font-size:10px;
+    text-transform: uppercase;
+    color:#ff7e00;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.modify-parr-box>.a-right>li>.right{
+    width: 272px;
+}
+.modify-parr-box>.a-right>li>.right>a,.add-zx-part>ul>li>.text a{
+    position: relative;
+    font-size: 12px;
+    color:#333;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    line-height: 30px;
+    margin-left: 20px;
+    padding-left: 25px;
+}
+.modify-parr-box>.a-right>li>.right>a:hover{
+    color:#ff7e00;
+}
+.modify-parr-box>.a-right>li>.right>a:before,.zs-part-box>.zs-part>li .cont a:before,.add-zx-part>ul>li>.text a:before{
+    position: absolute;
+    left: 0;
+    top:5px;
+    content: "";
+    width: 18px;
+    height: 16px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images02/yes.png") center top no-repeat;
+}
+.modify-parr-box>.a-right>li>.right>a.more,.add-zx-part>ul>li a.more{
+    display: block;
+    font-size: 12px;
+    width: 133px;
+    height: 25px;
+    line-height: 25px;
+    /*color: #ff7e00;*/
+    border: 1px solid #ff7e00;
+    color:#fff;
+    background: #ff7e00;;
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 0;
+}
+.modify-parr-box>.a-right>li:hover>.right>a.more,.modify-parr-box>.rz-part>li:hover>a.more,.add-zx-part>ul>li:hover a.more{
+    /*background: #ff7e00;*/
+    color:#fff;
+    opacity: 0.8;
+}
+.modify-parr-box>.a-right>li>.right>a.more:before{
+    width: 0;
+}
+/*知识产权*/
+.tit-icon.zc{
+    width: 51px;
+    height: 62px;
+    background-position: -58px 0;
+}
+.zs-part-box>.zs-part{
+    width: 923px;
+    overflow: hidden;
+}
+.zs-part-box>.zs-part>li{
+    float: left;
+    margin-left: 20px;
+    width: 285px;
+    height: 368px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 10px #ddd;
+}
+.zs-part-box>.zs-part>li .tt{
+    text-align: center;
+    border-bottom: 1px dashed #ff7e00;
+    padding-bottom: 10px;
+}
+.zs-part-box>.zs-part>li .tt>i{
+    width: 72px;
+    height: 80px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images02/icon02.png") -561px 0 no-repeat;
+}
+.zs-part-box>.zs-part>li .tt>i.two{
+    background-position: -676px 0;
+}
+.zs-part-box>.zs-part>li .tt>i.three{
+    background-position: -798px 0;
+}
+.zs-part-box>.zs-part>li .tt>h3{
+    font-size: 18px;
+    color:#333;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.zs-part-box>.zs-part>li .tt>span{
+    font-size: 14px;
+    color:#666;
+}
+.zs-part-box>.zs-part>li .tt>span.mid{
+    margin: 0 28px;
+}
+.zs-part-box>.zs-part>li .cont>div{
+    height: 130px;
+}
+.zs-part-box>.zs-part>li .cont a{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font-size: 14px;
+    color:#333;
+    position: relative;
+    padding-left: 23px;
+    margin-top: 24px;
+}
+.zs-part-box>.zs-part>li .cont a:hover{
+    color:#ff7e00;
+}
+.zs-part-box>.zs-part>li .cont a.mr{
+    margin-right: 20px;
+}
+.zs-part-box>.zs-part>li .cont a:before{
+    top:0;
+}
+.zs-part-box>.zs-part>li .cont>a.more{
+    display: block;
+    width: 188px;
+    height: 30px;
+    line-height: 30px;
+    /*background: url("http://www.cddgg.com/statics/new_ptw3/images02/btn.png") center top no-repeat;*/
+    border: 1px solid #ff7e00;
+    color:#fff;
+    background: #ff7e00;
+    text-align: center;
+    padding: 0;
+    margin: 30px auto 0;
+}
+.zs-part-box>.zs-part>li .cont>a.more:before{
+    width: 0;
+}
+.zs-part-box>.zs-part>li:hover .cont>a.more{
+    opacity: 0.8;
+}
+/*融资贷款*/
+.tit-icon.dk {
+    width: 50px;
+    height: 55px;
+    background-position: -123px 0;
+}
+.modify-parr-box>.rz-part{
+    overflow: hidden;
+}
+.modify-parr-box>.rz-part>li{
+    position: relative;
+    padding: 10px 30px;
+    float: left;
+}
+.modify-parr-box>.a-right>li>.right>a{
+    margin:0 20px 0 0;
+}
+.modify-parr-box>.rz-part>li>h3{
+    text-align: left;
+}
+.modify-parr-box>.rz-part>li>.right{
+    margin: 10px 0 15px;
+}
+.modify-parr-box>.rz-part>li>a.more{
+    width: 119px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #ff7e00;
+    /*color:#ff7e00;*/
+    background: #ff7e00;
+    color:#fff;
+    font-size: 16px;
+    text-align: center;
+}
+.modify-parr-box>.rz-part>li>i{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 79px;
+    height: 58px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images02/icon02.png") -11px -150px no-repeat;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.modify-parr-box>.rz-part>li:hover>i{
+    right: 20px;
+}
+.modify-parr-box>.rz-part>li>i.two{
+    width: 101px;
+    background-position: -147px -150px;
+}
+.modify-parr-box>.rz-part>li>i.three{
+    height: 75px;
+    background-position: -313px -141px;
+}
+.modify-parr-box>.rz-part>li>i.four{
+    height: 75px;
+    background-position: -436px -141px;
+}
+/*资质服务*/
+.tit-icon.zz {
+    width: 50px;
+    height: 61px;
+    background-position: -187px 0;
+}
+.zs-part-box .zz-part>li{
+    padding:5px;
+}
+.zs-part-box .zz-part>li>.tt>.up{
+    background: #ebeaea;
+    padding: 10px;
+}
+.zs-part-box .zz-part>li>.tt>.up>i{
+    width: 74px;
+    height: 79px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images02/icon02.png") -560px -141px no-repeat;
+    margin-right: 10px;
+}
+.zs-part-box .zz-part>li>.tt>.up>i.icon02{
+    background-position: -673px -141px;
+}
+.zs-part-box .zz-part>li>.tt>.up>i.icon03{
+    background-position: -795px -141px;
+}
+.zs-part-box .zz-part>li>.tt>.up .txt{
+    margin-top: 15px;
+}
+.zs-part-box .zz-part>li>.tt>.up .txt>p{
+    font-size: 20px;
+    color:#333;
+    font-weight: bold;
+}
+.zs-part-box .zz-part>li>.tt>.up .txt span{
+    font-size: 12px;
+    color:#ff7e00;
+    text-transform: uppercase;
+}
+.zs-part-box .zz-part>li>.tt>p{
+    font-size: 14px;
+    padding: 10px 0 0;
+}
+.zs-part-box>.zz-part>li .cont a{
+    margin: 20px 0 0 20px;
+}
+.zs-part-box>.zz-part>li .cont>div{
+    height: 177px;
+}
+.zs-part-box>.zz-part>li .cont>a.more{
+    margin: 0 auto;
+}
+/*互联网*/
+.tit-icon.hlw {
+    width: 49px;
+    height: 60px;
+    background-position: -251px 0;
+}
+.modify-parr-box>.hlw-part>li>.left>i{
+    width: 95px;
+    height: 95px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/images02/icon02.png") -2px -275px no-repeat;
+}
+.modify-parr-box>.hlw-part>li>.left>i.two{
+    background: url("http://www.cddgg.com/statics/new_ptw3/images02/icon02.png") -146px -275px no-repeat;
+}
+.modify-parr-box>.hlw-part>li>.left>i.three{
+    background: url("http://www.cddgg.com/statics/new_ptw3/images02/icon02.png") -306px -275px no-repeat;
+}
+.modify-parr-box>.hlw-part>li>.left>i.four{
+    background: url("http://www.cddgg.com/statics/new_ptw3/images02/icon02.png") -439px -272px no-repeat;
+}
+/*家装服务*/
+.tit-icon.jz {
+    width: 53px;
+    height: 60px;
+    background-position: -314px 0;
+}
+.add-zx-part>ul{
+    padding: 20px;
+    background: #f2f3f7;
+}
+.add-zx-part>ul>li{
+    float: left;
+    width: 555px;
+    box-shadow: 1px 1px 10px #ddd;
+}
+.add-zx-part>ul>li>.img{
+    width: 555px;
+    height: 184px;
+    overflow: hidden;
+}
+.add-zx-part>ul>li>.img img{
+    width: 100%;
+    height: 100%;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.add-zx-part>ul>li:hover>.img img{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.add-zx-part>ul>li.first{
+    margin-right: 30px;
+}
+.add-zx-part>ul>li>.text{
+    background: #fff;
+    padding: 20px;
+}
+.add-zx-part>ul>li>.text>b{
+    font-size: 24px;
+    color:#ff7e00;
+    margin-right: 10px;
+}
+.add-zx-part>ul>li>.text>span{
+    font-size: 14px;
+    color:#ff7e00;
+    text-transform: uppercase;
+}
+.add-zx-part>ul>li>.text>p{
+    font-size: 16px;
+    color:#999;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+.add-zx-part>ul>li>.text a{
+    margin: 0 20px 0 0;
+    font-size: 16px;
+}
+.add-zx-part>ul>li>.text a:hover{
+    color:#ff7e00;
+}
+.add-zx-part>ul>li>.text a.more{
+    margin: 20px auto 0;
+}
+.add-zx-part>ul>li>.text a.more:hover{
+    color:#fff;
+}
+.add-zx-part>ul>li>.text a.more:before{
+    width: 0;
+}
+.today-hot {
+    position: relative;
+    margin: 15px auto;
+    border-bottom: 1px dashed #ff7e00;
+}
+.today-hot>b {
+    font-size: 17px;
+    color: #f68535;
+    vertical-align: middle;
+}
+.today-hot>b>i{
+    width: 25px;
+    height: 14px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/index/a-eye.png") no-repeat;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.today-hot>a {
+    position: relative;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    color: #7d7d7d;
+    margin-left: 35px;
+    padding-left: 14px;
+}
+.today-hot>a:hover{
+    text-decoration: underline;
+    color: #f68535;
+}
+.today-hot>a:before{
+    position: absolute;
+    left: 0;
+    top:4px;
+    content: "";
+    width: 8px;
+    height: 13px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/index/a-sjx.png") no-repeat;
+}
+
+/*2019新增版块 start*/
+.tk_rmtj .add-block_2019{
+    width: 100%;
+    /*height: 318px;*/
+    margin: 0 auto;
+    /*background: url("http://www.cddgg.com/statics/new_ptw3/img/index/xg_bg.png");*/
+    background: #fff;
+    border:1px solid #fff;
+}
+.tk_rmtj .add-block_2019 li{
+    float: left;
+    width:235px;
+    height: 260px;
+    /* margin: 0; */
+    padding: 0;
+    /*border: 0;*/
+    margin: 0 1px 0 0;
+    overflow: hidden;
+
+}
+/*.tk_rmtj .add-block_2019 li:not(:last-child){*/
+/*margin: 20px 0 20px 20px;*/
+/*}*/
+.tk_rmtj .add-block_2019 li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.tk_rmtj .add-block_2019 li a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.5s; /* Safari 和 Chrome */
+    -o-transition: all 0.5s; /* Opera */
+}
+.tk_rmtj .add-block_2019 li:hover a img{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.add-bg-banner{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+    width: 1920px;
+    height: 740px;
+    z-index: 1;
+    background:url("http://www.cddgg.com/statics/new_ptw3/img/public/ddd.jpg") no-repeat ;
+    background-size: cover;
+}
+
+/*2019第一屏背景修改*/
+.block1_add{
+    position: relative;
+    width: 100%;
+    height: 740px;
+    overflow: hidden;
+}
+.inside-banner{
+    background: transparent!important;
+    z-index: 33;
+}
+.tk_rmtj{
+    position: relative;
+    z-index: 33;
+}
+
+
+
+/*2019/3/14 推荐产品及搜索框修改*/
+.add-bg-banner,.block1_add{
+    height: 745px;
+}
+.inside-banner{
+    height: 450px;
+}
+.sk {
+    position: relative;
+    z-index: 33;
+    height: 275px;
+    margin-bottom: 30px; }
+
+.sk_inner {
+    background: #fff;
+    overflow: hidden; }
+
+.sk_hd {
+    position: relative;
+    float: left;
+    width: 190px;
+    height: 275px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/index/cp_bg.jpg") no-repeat;
+    color: #fff;
+    border: 1px solid #ff7e00;
+}
+
+.sk_hd_lk {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff; }
+
+.sk_hd_lk:hover {
+    color: #fff; }
+
+.sk_tit{
+    position: absolute;
+    left: 50%;
+    width: 170px;
+    margin-left: -85px;
+    text-align: center;
+    padding-bottom: 8px;
+    top: 42px;
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 1px dashed #fff;
+}
+
+.sk_bd {
+    float: left;
+    height: 275px;
+}
+.sk_bd li{
+    float: left;
+    width: 196px;
+    height: 100%;
+}
+.sk_bd li:not(:last-child){
+    border-right: 1px dashed #ddd;
+}
+.o2_mini .sk_list {
+    width: 598px; }
+
+.o2_mini .sk_list_inner {
+    width: 599px; }
+
+.sk .slider_control {
+    top: 110px;
+    /* opacity: 0; */ }
+
+.sk_item_lk{
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.sk_item_lk .img{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+.sk_item_lk .img img{
+    width: 100%;
+    height: 100%;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.sk_item_lk:hover .img img{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.sk_item_lk h3 {
+    margin: 18px auto 14px;
+    font-size: 14px;
+    color: #666;
+    height: 34px;
+    line-height: 17px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-align: center;
+}
+.sk_item_lk h3 b{
+    color:#333;
+}
+.sk_item_lk:hover h3,.sk_item_lk:hover h3 b{
+    color:#ff7f2a;
+}
+.sk_item_lk>p{
+    overflow: hidden;
+}
+.sk_item_lk>p span{
+    display: block;
+    float: left;
+    width: 48%;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #e83632;
+}
+.sk_item_lk>p span.before{
+    text-decoration: line-through;
+    color:#999;
+}
+.sk_bd li:last-child .sk_item_lk>p span.before{
+    text-decoration: none!important;
+}
+.sk_item_lk>p span.now{
+    color: #fff;
+    background: #e83632;
+}
+.sk_desc {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    top: 170px;
+    font-size: 16px;
+}
+.sk_ico {
+    position: absolute;
+    left: 86px;
+    top: 126px;
+    display: block;
+    width: 20px;
+    height: 33px;
+    background-image: url("http://www.cddgg.com/statics/new_ptw3/img/index/sprite.seckill.png");
+    background-position: -35px -25px;
+}
+.sk_cd {
+    position: absolute;
+    top: 212px;
+    left: 30px;
+    height: 40px; }
+
+.sk .cd_day {
+    display: none; }
+
+.sk .cd_item {
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #2f3430;
+    margin-right: 5px; }
+
+.sk .cd_item:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    height: 1px;
+    background: #e83632; }
+.sk span{
+    position: relative;
+    line-height: 40px;
+    font-weight: bold;
+    /* font-size: 16px; */
+    font-size: 20px; }
+.timespan .cd_item span{
+    position: relative;
+    line-height: 40px;
+    font-weight: bold;
+    /* font-size: 16px; */
+    font-size: 22px;
+}
+.logo-img{
+    margin-right: 25px;
+    padding: 10px 0;
+}
+.header-form{
+    width: 570px;
+    position: relative;
+    z-index: 33;
+    padding: 22px 0 7px;
+}
+.hotline-box{
+    padding: 18px 0 0;
+}
+.search-input{
+    width: 100%;
+}
+.search-input button{
+    width: 25px;
+}
+.search-icon{
+    width: 26px;
+    height: 26px;
+    background: url("http://www.cddgg.com/statics/new_ptw3/img/index/cp_search.png") no-repeat;
+    background-size:cover;
+    position: absolute;
+    top: 21%;
+    margin-top: 0;
+    left: 20px;
+}
+.search-input input{
+    width: 492px;
+}

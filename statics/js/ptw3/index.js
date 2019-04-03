@@ -30,10 +30,10 @@
 				lat:"29.59544"//纬度
 			}
 		],
-		"成都":[
+		"":[
 			{
 				name:"世外桃源广场服务中心",
-				address:"成都市武侯区科华北路65号世外桃源2-3层、27层",
+				address:"市武侯区科华北路65号世外桃源2-3层、27层",
 				lng:"104.083695",
 				lat:"30.63579"
 			},
@@ -145,7 +145,7 @@
 		var lat = $("#center").find("option:selected").attr("lat");
 		map.panTo(new BMap.Point(lng,lat))
 	})
-	//初始化选择成都（点击一次）
+	//初始化选择（点击一次）
 	$("#citys").find("a").eq(0).click();
 	
 	

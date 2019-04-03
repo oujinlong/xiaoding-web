@@ -43,7 +43,7 @@
     <findStrings>
       <find>logo2</find>
       <find>logo2.png</find>
-      <find>顶呱呱首页</find>
+      <find>首页</find>
       <find>首页</find>
       <find>submit_msg</find>
     </findStrings>

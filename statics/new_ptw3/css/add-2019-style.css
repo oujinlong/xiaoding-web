@@ -8,9 +8,8 @@
     border-top: 1px dashed #dcdcdc;
 }
 .side-nav>li .add-nav-box a{
-    /* position: relative; */
-    border:1px solid #ff7e00;
-    /* background: #2282f0; */
+    position: relative;
+    /* border:1px solid #ff7e00; */
     font-size: 13px;
     padding: 0 4px;
     color: #2e2e2e;
